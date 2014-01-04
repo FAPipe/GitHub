@@ -166,6 +166,7 @@ GameObject:
   - 136: {fileID: 1135192219}
   - 23: {fileID: 1135192218}
   - 114: {fileID: 1135192217}
+  - 114: {fileID: 1135192222}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -181,10 +182,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135192216}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8297afe07d4de4ebde9f4786194d00, type: 3}
+  m_Script: {fileID: 11500000, guid: 239848c3f3f052742ba59c5491fe2a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   avion: {fileID: 1135192216}
+  velocidad: 0
 --- !u!23 &1135192218
 Renderer:
   m_ObjectHideFlags: 0
@@ -237,3 +239,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1135192222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1135192216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9764d7bde8f8a58448d948ac9641e184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viento_este: 0
+  viento_oeste: 0
+  lluvia_estado: 0
+  avion: {fileID: 1135192216}
