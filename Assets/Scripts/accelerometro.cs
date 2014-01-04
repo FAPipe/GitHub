@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/*Script que maneja el accelerometro para el avion de papel:
+ * para cambiar los ejes de movimiento se debe modificar la variable dir, colocando en cada celda el eje que desee
+ * ejemplo: (ejey,ejex,ejez) significa que eje x del juego corresponde el eje y del accelerometro, eje y del juego al 
+ * eje x del accelerometro, etc.
+ * */
 public class accelerometro : MonoBehaviour {
 	float velocidad=10f;
 	float xmin= -10f;
