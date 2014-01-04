@@ -15,7 +15,7 @@ public class mov : MonoBehaviour {
 	void Update () {
 	
 		if (Input.GetKey(KeyCode.D)) {
-			dere= dere-1;
+			print("D");
 			avion.transform.Translate(Vector3.right * Time.deltaTime*6 );
 
 		}
