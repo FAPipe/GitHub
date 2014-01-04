@@ -29,6 +29,7 @@ public class FisicaAvion : MonoBehaviour {
 		}	
 		if(lluvia_estado){			
 			avion.transform.Translate (Vector3.down * Time.deltaTime * velocidad_elementos);
-		}
+		}		
+		avion.transform.Translate (Vector3.down * Time.deltaTime * 1);
 	}
 }
