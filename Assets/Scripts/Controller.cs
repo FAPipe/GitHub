@@ -9,7 +9,7 @@ public class Controller : MonoBehaviour {
 	public int cantObjetos;
 	// Use this for initialization
 	void Start () {
-		velocidadObjetos=10f;
+		velocidadObjetos=1f;
 		momentumAvion=0f;
 		nivel =1;
 	}
