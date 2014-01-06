@@ -7,7 +7,7 @@ public class mov : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		// velocidad de movimiento
-		velocidad = 6;
+		velocidad = 3;
 
 	
 	
