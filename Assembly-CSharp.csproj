@@ -49,9 +49,13 @@
      <Compile Include="Assets\Scripts\Avion.cs" />
      <Compile Include="Assets\Scripts\Enemigos.cs" />
      <Compile Include="Assets\Scripts\FisicaAvion.cs" />
+     <Compile Include="Assets\Scripts\Obj_viento.cs" />
      <Compile Include="Assets\Scripts\accelerometro.cs" />
+     <Compile Include="Assets\Scripts\crear_viento.cs" />
+     <Compile Include="Assets\Scripts\cube_test_mov.cs" />
      <Compile Include="Assets\Scripts\mov.cs" />
      <Compile Include="Assets\Scripts\scriptTest.cs" />
+     <Compile Include="Assets\Scripts\trigger_viento.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
