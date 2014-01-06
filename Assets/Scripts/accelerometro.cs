@@ -11,8 +11,8 @@ public class accelerometro : MonoBehaviour {
 	float xmax=10f;
 	float ymin=-10f;
 	float ymax=10f;
-	float zmin=-10f;
-	float zmax=10f;
+	//float zmin=-10f;
+	//float zmax=10f;
 	float filtro=5f;
 
 	Vector3 ac;
